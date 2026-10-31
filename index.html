@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Design and development work by Nathaniel.">
+  <title>Nathaniel Fong — Portfolio</title>
+
+  <!-- Editorial-style display font + clean UI font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- BANNER / HERO -->
+  <section class="hero" id="anchor_home">
+    <div class="hero-copy">
+      <p class="eyebrow hero-eyebrow">PORTFOLIO</p>
+      <h1>Nathaniel<br>Fong</h1>
+      <p class="hero-subtitle">UI/UX DESIGNER | GRAPHIC DESIGNER</p>
+    </div>
+  </section>
+
+  <!-- Navigation -->
+  <header class="site-header" >
+    <a class="wordmark" href="index.html" aria-label="Home">NF</a>
+    <nav class="navigation" aria-label="Main navigation">
+      <a href="#anchor_home">HOME</a>
+      <a href="#anchor_about">ABOUT</a>
+      <a href="#anchor_contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="work-section" id="work">
+      <div class="section-intro">
+        <div>
+          <p class="eyebrow">PORTFOLIO / 2022—2026</p>
+          <h2>A selection my works.</h2>
+        </div>
+      </div>
+
+  <!-- CATEGORY SELECTOR -->
+    <div class="category-tabs" id="anchor_foliotab">
+        <button class="category-tab active"
+                data-category="uiux"
+                aria-selected="true">
+            <span class="tab-number">01 /</span>
+            UI/UX Design
+            <span class="tab-arrow">↗</span>
+        </button>
+
+        <button class="category-tab"
+                data-category="graphic"
+                aria-selected="false">
+            <span class="tab-number">02 /</span>
+            Graphic Design
+            <span class="tab-arrow">↗</span>
+        </button>
+    </div>
+
+    <!-- UI/UX PROJECTS -->
+    <div class="category-content active" id="uiux">
+      <div class="project-grid">
+        <a class="project-card" href="project_ui_01.html">
+          <div class="project-visual">
+            <img src="images/ProjectPreview_01.png" alt="Project 1 preview">
+          </div>
+          <div class="project-meta">
+            <div>
+              <p class="project-type">PRODUCT DESIGN | UX RESEARCH</p>
+              <h3>Product Brand Design</h3>
+            </div>
+            <span class="project-arrow">↗</span>
+          </div>
+          <p class="project-description">A group project aimed to create a brand identity through competitor, user research and prototyping.</p>
+        </a>
+
+        <a class="project-card" href="project_ui_02.html">
+          <div class="project-visual">
+            <img src="images/ProjectPreview_02.png" alt="Project 2 preview">
+          </div>
+          <div class="project-meta">
+            <div>
+              <p class="project-type">UI DESIGN | WEB DEV</p>
+              <h3>Web Typeface Documentation</h3>
+            </div>
+            <span class="project-arrow">↗</span>
+          </div>
+          <p class="project-description">An interactive webpage project, showcasing and documenting the Canada Type - Leather typeface.</p>
+        </a>
+        </div>
+    </div>
+
+    <!-- GRAPHIC PROJECTS -->
+    <div class="category-content" id="graphic">
+      <div class="project-grid">
+        <a class="project-card" href="project_graphic_01.html">
+          <div class="project-visual">
+            <img src="images/ProjectPreview_03.jpg" alt="Project 3 preview">
+          </div>
+          <div class="project-meta">
+            <div>
+              <p class="project-type">GRAPHIC DESIGN | PHYSICAL PRINT</p>
+              <h3>Poster Designs</h3>
+            </div>
+            <span class="project-arrow">↗</span>
+          </div>
+          <p class="project-description">A series of Poster design combining 3D and 2D, and physically printed all over campus.</p>
+        </a>
+
+        <a class="project-card" href="project_graphic_02.html">
+          <div class="project-visual">
+            <img src="images/ProjectPreview_04.png" alt="Project 4 preview">
+          </div>
+          <div class="project-meta">
+            <div>
+              <p class="project-type">MULTIMEDIA | SOCIAL MEDIA</p>
+              <h3>Exhibition Design</h3>
+            </div>
+            <span class="project-arrow">↗</span>
+          </div>
+          <p class="project-description">Creating a series of assets to establish the theme of an exhibition. Created number of social media contents.</p>
+        </a>
+
+        <a class="project-card" href="project_graphic_03.html">
+          <div class="project-visual">
+            <img src="images/ProjectPreview_05.jpg" alt="Project One preview">
+          </div>
+          <div class="project-meta">
+            <div>
+              <p class="project-type">GRAPHIC DESIGN | PROTOTYPING</p>
+              <h3>DVD Case Making</h3>
+            </div>
+            <span class="project-arrow">↗</span>
+          </div>
+          <p class="project-description">Creating visuals inspired by David Bowie, then printing them to make a physical disc case.</p>
+        </a>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section class="contact-strip" id="anchor_about">
+      <p class="eyebrow">ABOUT ME</p>
+      <h2>Nathaniel's Profile</em></h2>
+      <br>
+      <p>My name is Nathaniel, a recent Bachelor of Design graduate from the University of Melbourne, with a strong focus in graphic design, UI/UX, visual communication and 3D modelling. <br><br>
+      I’m confident in working with Adobe Photoshop, Illustrator, InDesign, Premiere Pro and After Effect wit experience creating a range of visual content, wireframing, user research, user journey, web development ( built this site!).<br><br>
+      I enjoy exploring new design expressions, making me flexible and open to feedback, new ideas and learning ne  workflows. I’m looking for a designer role where I can contribute, create something people will enjoy an  work with a team and continue growing as a designer.</p><br><br><br><br><br><br><br>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-strip" id="anchor_contact" style="background: var(--ink);">
+      <h2 style="color: var(--line);">Contatcts</em></h2>
+      <br>
+      <div class="contact-content">
+        <div class="contact-content-column">
+          <a href="mailto:nathanielfo2004@gmail.com">nathanielfo2004@gmail.com ↗</a>
+          <a href="tel:+61 0481796818">AUS +61 0481 796 818</a>
+          <a href="tel:+852 66239577">HK +852 6623 9577</a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/nathaniel-fong-76b44633b/">Linkedin</a>
+        </div>
+        <div class="contact-content-row">
+          <p>Feel free to contact me anytime Mon-Fri between 10:00am - 10:00pm AEDT</p><br>
+          <p>Contact via E-mail is preferred</p>
+        </div>
+      
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="wordmark footer-mark" href="index.html">NF</a>
+    <p>© 2026 Nathaniel Fong. Designed with intention.</p>
+    <a href="mailto:nathanielfo2004@gmail.com">nathanielfo2004@gmail.com ↗</a>
+  </footer>
+
+</body>
+</html>
